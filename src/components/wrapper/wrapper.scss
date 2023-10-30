@@ -1,0 +1,36 @@
+@use '../../scss/' as *;
+
+.wrapper {
+	@include flex(center, space-between);
+	padding: 30px 0;
+
+	&__text {
+		max-width: 600px;
+		@include flex(flex-start, space-between);
+		flex-direction: column;
+		gap: 35px;
+	}
+
+	&__title {
+		font-size: 34px;
+		line-height: 140%;
+	}
+
+	&__subtitle {
+		font-size: 20px;
+		font-weight: 400;
+	}
+
+	&__desc {
+		font-size: 25px;
+		line-height: 140%;
+	}
+
+	&__img {
+		width: 450px;
+		img {
+			border-radius: $border-radius;
+			// width: 100%;
+		}
+	}
+}

@@ -1,0 +1,11 @@
+@use '../../scss/' as *;
+
+.btn {
+	background: $main-color;
+	border-radius: $border-radius-btn;
+	border: none;
+	padding: 15px 30px;
+	font-size: 20px;
+	font-weight: 700;
+	cursor: pointer;
+}

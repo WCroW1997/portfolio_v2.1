@@ -1,0 +1,21 @@
+@use '../../scss/' as *;
+
+.card {
+	flex-basis: 25%;
+	width: 100%;
+
+	&__title {
+		font-size: 20px;
+		margin: 15px 0;
+	}
+
+	&__desc {
+		font-size: 20px;
+		line-height: 130%;
+	}
+
+	img {
+		width: 75px;
+		height: 75px;
+	}
+}
