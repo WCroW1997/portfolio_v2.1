@@ -42,14 +42,14 @@ const mySkills = [
 
 const Skills = () => {
 	return (
-		<div className='skills'>
+		<section className='skills section'>
 			<h2 className='section__title skills__title'>Мої послуги</h2>
 			<div className='skills__zone'>
 				{mySkills.map((skill) => (
 					<Skill key={skill.id} {...skill} />
 				))}
 			</div>
-		</div>
+		</section>
 	)
 }
 

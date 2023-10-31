@@ -4,7 +4,7 @@ import photo from '../../assets/profile-pic (1).png'
 
 const Wrapper = () => {
 	return (
-		<div className='wrapper'>
+		<section className='wrapper section'>
 			<div className='wrapper__text'>
 				<h2 className='wrapper__subtitle'>Андрій Залужний</h2>
 				<h1 className='wrapper__title'>Front-end Developer, Фрілансер</h1>
@@ -17,7 +17,7 @@ const Wrapper = () => {
 			<div className='wrapper__img'>
 				<img src={photo} alt='' />
 			</div>
-		</div>
+		</section>
 	)
 }
 

@@ -1,0 +1,16 @@
+@use '../../scss/' as *;
+
+.work {
+	&__filter {
+		@include flex(center, center);
+		gap: 30px;
+	}
+
+	&__category {
+		font-size: 28px;
+
+		&.active {
+			border-bottom: 2px solid $main-color;
+		}
+	}
+}

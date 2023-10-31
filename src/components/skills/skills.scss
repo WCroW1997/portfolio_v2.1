@@ -1,7 +1,6 @@
 @use '../../scss/' as *;
 
 .skills {
-	margin-top: 70px;
 	&__zone {
 		@include flex(flex-start, space-between);
 		flex-wrap: wrap;
